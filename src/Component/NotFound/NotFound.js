@@ -3,7 +3,7 @@ import React from 'react';
 const NotFound = () => {
     return (
         <div>
-            <h1>hello people</h1>
+            <img src={'https://image.freepik.com/free-vector/error-404-concept-illustration_114360-1811.jpg'} alt="" />
         </div>
     );
 };

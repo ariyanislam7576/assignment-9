@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import Rating from 'react-rating';
+import { NavLink } from 'react-router-dom';
 
 const Course = (props) => {
     // console.log(props);
@@ -22,7 +23,9 @@ const Course = (props) => {
                 emptySymbol="text-warning far fa-star"></Rating>
            </Card.Text>
           </Card.Text>
-          <button className="btn-danger p-2 rounded">Enroll now</button>
+          <NavLink to='/notfound'>
+            <button className="btn-danger p-2 rounded">Enroll Now</button>
+          </NavLink>
         </Card.Body>
       </Card>
     </Col>

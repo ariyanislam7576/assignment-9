@@ -21,7 +21,7 @@ const Home = () => {
                         courses.slice(2,6).map(course => <Course key={course.id}course={course}></Course>)
                     }
                 </Row>
-                <Link>More Course</Link>
+                <Link to='/service'>More Course</Link>
            </Container>
         </div>
     );

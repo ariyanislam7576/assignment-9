@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { Carousel, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
     return (
         <div>
-            <Navbar bg="light" expand="lg">
+   <Navbar bg="light" expand="lg">
   <Container fluid>
     <Navbar.Brand href="#"> 
     <img className='logo' src={`https://purepng.com/public/uploads/large/laptop-symbol-azy.png`} alt="" /> ITHome</Navbar.Brand>
@@ -23,18 +23,51 @@ const Header = () => {
         <NavLink className='m-2 text-decoration-none' to="/service">Services</NavLink>
         <NavLink className='m-2 text-decoration-none' to="/donate">Donate</NavLink>
       </Nav>
-      <Form className="d-flex">
+      {/* <Form className="d-flex">
         <FormControl
           type="search"
           placeholder="Search"
           className="me-2"
           aria-label="Search"
         />
-      </Form>
+      </Form> */}
     </Navbar.Collapse>
   </Container>
 </Navbar>
-        </div>
+
+
+<Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src='https://image.freepik.com/free-photo/i-did-it_1098-17972.jpg'
+      alt="First slide"
+    />
+    <Carousel.Caption>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="https://images.unsplash.com/photo-1596495717764-bf85c4721e1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="https://image.freepik.com/free-photo/young-smiling-african-man-standing-using-laptop_171337-12867.jpg"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+</div>
     );
 };
 
