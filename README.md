@@ -1,4 +1,4 @@
-###ITHome
+### ITHome
 
 This project was bootstrapped with [This is my Educatinal site](https://eloquent-pare-779a14.netlify.app/).
 
