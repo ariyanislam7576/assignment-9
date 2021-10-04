@@ -1,0 +1,22 @@
+.footer{
+    background-color:lightgray;
+}
+.footer footer p{
+    text-align: center;
+}
+.footer-right{
+    text-align: left;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+}
+.input{
+    text-align: right;
+    margin: 10px;
+    margin-top: -130px;
+
+}
+.input input{
+    margin: 5px;
+    padding: 2px;
+}
