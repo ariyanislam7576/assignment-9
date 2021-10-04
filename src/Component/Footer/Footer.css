@@ -11,7 +11,13 @@
     margin-top: 0px;
 
 }
-.input input{
+.input input,textarea{
     margin: 5px;
-    padding: 2px;
+    padding: 3px;
+    border: 0px;
+    border-radius: 5px;
+}
+/* btn */
+.btn-danger{
+    margin-left: -120px;
 }
