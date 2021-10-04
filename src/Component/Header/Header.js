@@ -5,7 +5,10 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div>
+  <div>
+
+    {/*-------------------- navbar----------------- */}
+
    <Navbar bg="light" expand="lg">
   <Container fluid>
     <Navbar.Brand href="#"> 
@@ -23,18 +26,11 @@ const Header = () => {
         <NavLink className='m-2 text-decoration-none' to="/service">Services</NavLink>
         <NavLink className='m-2 text-decoration-none' to="/donate">Donate</NavLink>
       </Nav>
-      {/* <Form className="d-flex">
-        <FormControl
-          type="search"
-          placeholder="Search"
-          className="me-2"
-          aria-label="Search"
-        />
-      </Form> */}
     </Navbar.Collapse>
   </Container>
 </Navbar>
 
+      {/* --------------slider----------------- */}
 
 <Carousel>
   <Carousel.Item>

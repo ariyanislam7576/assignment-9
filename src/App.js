@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
+//component
 import Home from './Component/Home/Home';
 import Header from './Component/Header/Header';
 import Footer from './Component/Footer/Footer';
@@ -8,6 +8,8 @@ import About from './Component/About/About';
 import Service from './Component/Service/Service'
 import NotFound from './Component/NotFound/NotFound';
 import Donate from './Component/Donate/Donate';
+
+//Router
 
 function App() {
   return (

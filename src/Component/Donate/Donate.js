@@ -1,5 +1,5 @@
 import React from 'react';
-
+// donate component 
 const Donate = () => {
     return (
         <div>

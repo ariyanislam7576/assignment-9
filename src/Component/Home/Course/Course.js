@@ -4,28 +4,40 @@ import Rating from 'react-rating';
 import { NavLink } from 'react-router-dom';
 
 const Course = (props) => {
-    // console.log(props);
-    const {name,cname,img,id,discription,price,rating} = props.course
+
+  /*---------------------distructure----------------------*/
+
+    const {name,cname,img,discription,price,rating} = props.course
     return (
-        <div>
+    <div>
     <Col>
       <Card>
         <Card.Img variant="top" src={img} />
         <Card.Body>
-          <Card.Title>{cname} by {name}</Card.Title>
-          <Card.Text>
-           {discription.slice(0,150)}
-           <Card.Text>
-               price: {price} <br />
-               <Rating readonly
+          <Card.Title className='text-start'>{cname} by 
+          <br /> <br />
+          {name} <br /> <br />
+          price: {price} <br /> <br />
+          </Card.Title>
+
+          <Card.Text className='text-start'>
+
+           Rating:  
+           <Rating readonly
                initialRating={rating}
                fullSymbol='text-warning fas fa-star'
-                emptySymbol="text-warning far fa-star"></Rating>
+                emptySymbol="text-warning far fa-star">
+              </Rating> <br /> <br />
+
+             <Card.Text className='text-start'>
+           discription: {discription.slice(0,150)}
            </Card.Text>
           </Card.Text>
+
           <NavLink to='/notfound'>
             <button className="btn-danger p-2 rounded">Enroll Now</button>
           </NavLink>
+
         </Card.Body>
       </Card>
     </Col>

@@ -1,9 +1,21 @@
+/* about-section */
 .about-container{
-    width: 500px;
-    height: 500px;
-    margin-left: 25%;
+    display: flex;
+}
+.Founder{
+    width: 800px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+}
+.Co-Founder{
+    width: 800px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px;
 }
 .about-container img{
     margin: 10px;
     border-radius: 50px;
+    width: 300px;
 }

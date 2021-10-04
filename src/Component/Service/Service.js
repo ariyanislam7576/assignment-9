@@ -2,8 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import SingleService from './SingleService/SingleService';
 import './Serivice.css'
-
+//  secvice component 
 const Service = () => {
+    // hooks
+
     const [services,setServices] = useState([])
     useEffect(()=>{
         fetch('/person.json')

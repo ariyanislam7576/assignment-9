@@ -1,9 +1,11 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import Rating from 'react-rating';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const SingleService = (props) => {
+  /*-------------distructure--------------*/
+  
     const {cname,name,discription,img,price,rating} = props.service
     return (
         <div>

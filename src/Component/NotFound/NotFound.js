@@ -1,5 +1,7 @@
 import React from 'react';
 
+// not found component 
+
 const NotFound = () => {
     return (
         <div>

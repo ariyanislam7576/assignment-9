@@ -3,8 +3,9 @@ import { Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Course from './Course/Course';
 import './Home.css'
-
+//home component
 const Home = () => {
+    // hooks
     const [courses,setcourses] = useState([])
     useEffect(()=> {
         fetch('/Person.json')

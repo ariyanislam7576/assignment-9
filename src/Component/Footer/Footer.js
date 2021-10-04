@@ -3,6 +3,8 @@ import './Footer.css'
 
 const Footer = () => {
     return (
+        // footer component
+         
         <div className='footer'>
             <footer>
                 <div className='input'>
