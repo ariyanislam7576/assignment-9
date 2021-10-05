@@ -1,12 +1,12 @@
 /* footer */
-.footer{
+.row{
     background-color:lightgray;
 }
 
 
 /* input  */
 .input{
-    text-align: center;
+    text-align: right;
     margin: 10px;
     margin-top: 0px;
 
@@ -20,4 +20,10 @@
 /* btn */
 .btn-danger{
     margin-left: -120px;
+}
+.social-icon{
+    /* width: 500px; */
+    margin: 20px 5px;
+    padding: 30px;
+    color: rgba(19, 144, 194, 0.733);
 }
