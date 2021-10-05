@@ -4,15 +4,15 @@ import './Footer.css'
 const Footer = () => {
     return (
         // footer component
-         
-        <div className='row d-flex'>
-            <div className="col-md-6 text-start m-5">
+         <div>
+             <div className='row mx-auto'>
+            <div className="col-md-4 text-start m-5">
                 <h2>ITHome</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum cum laudantium distinctio?
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt magni repudiandae, a nihil obcaecati quaerat beatae ratione distinctio dolores omnis nam quos, dolore quibusdam possimus doloremque expedita consectetur, amet quae!
                 </p>
             </div>
-            <div className="col-md-6 text-end">
+            <div className="col-md-5 m-3">
             <div className='input'>
                     <h3>Contact us</h3>
                     <form>
@@ -25,12 +25,11 @@ const Footer = () => {
                     </form>
                 </div>
             </div>
-            <footer>
-                
-                
-                <p>All right reserved by ITHome</p>
-            </footer>
-        </div>
+            <p>All right reserved by ITHome</p>
+             </div>
+             
+         </div>
+        
     );
 };
 
