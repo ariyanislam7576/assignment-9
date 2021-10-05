@@ -16,6 +16,7 @@ const Home = () => {
     },[])
     return (
         <div>
+            <h1>Popular Courses</h1>
            <Container className='my-5 img'>
                 <Row xs={1} md={2} className="g-4">
                     {

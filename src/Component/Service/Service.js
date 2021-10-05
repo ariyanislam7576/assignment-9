@@ -15,8 +15,9 @@ const Service = () => {
         })
     },[])
     return (
-   <Container className='my-5 img-size'>
-       <h3>Our Availble Courses</h3>
+   <div>
+        <h3>Our Availble Courses</h3>
+       <Container className='my-5 img-size'>
         <Row xs={1} md={3} className="g-4">
         {
             services.map(service => <SingleService
@@ -25,6 +26,7 @@ const Service = () => {
         }
     </Row>
    </Container>
+   </div>
     );
 };
 
